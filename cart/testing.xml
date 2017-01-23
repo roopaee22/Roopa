@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ShopingCart" verbose="2" annotations="JDK">
+  <test name="Roopa_Test1" preserve-order="true" >
+    <classes>
+      <class name="org.roopa.cart.ShopingCart" />
+    </classes>
+  </test>
+</suite>
