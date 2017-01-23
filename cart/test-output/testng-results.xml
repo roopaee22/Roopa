@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="104767" started-at="2017-01-23T09:04:54Z" finished-at="2017-01-23T09:06:38Z">
+  <suite name="Default suite" duration-ms="68073" started-at="2017-01-23T09:46:25Z" finished-at="2017-01-23T09:47:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="104767" started-at="2017-01-23T09:04:54Z" finished-at="2017-01-23T09:06:38Z">
+    <test name="Default test" duration-ms="68073" started-at="2017-01-23T09:46:25Z" finished-at="2017-01-23T09:47:33Z">
       <class name="org.roopa.cart.ShopingCart">
-        <test-method status="PASS" signature="getUrl()[pri:0, instance:org.roopa.cart.ShopingCart@c038203]" name="getUrl" is-config="true" duration-ms="6883" started-at="2017-01-23T01:04:54Z" finished-at="2017-01-23T01:05:01Z">
+        <test-method status="PASS" signature="getUrl()[pri:0, instance:org.roopa.cart.ShopingCart@c038203]" name="getUrl" is-config="true" duration-ms="7381" started-at="2017-01-23T01:46:25Z" finished-at="2017-01-23T01:46:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUrl -->
-        <test-method status="PASS" signature="searchAndAdd(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.roopa.cart.ShopingCart@c038203]" name="searchAndAdd" duration-ms="47065" started-at="2017-01-23T01:05:01Z" data-provider="orderlistcsv" finished-at="2017-01-23T01:05:48Z">
+        <test-method status="PASS" signature="searchAndAdd(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.roopa.cart.ShopingCart@c038203]" name="searchAndAdd" duration-ms="12538" started-at="2017-01-23T01:46:33Z" data-provider="orderlistcsv" finished-at="2017-01-23T01:46:45Z">
           <params>
             <param index="0">
               <value>
@@ -32,7 +32,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchAndAdd -->
-        <test-method status="PASS" signature="searchAndAdd(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.roopa.cart.ShopingCart@c038203]" name="searchAndAdd" duration-ms="12532" started-at="2017-01-23T01:05:48Z" data-provider="orderlistcsv" finished-at="2017-01-23T01:06:00Z">
+        <test-method status="PASS" signature="searchAndAdd(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.roopa.cart.ShopingCart@c038203]" name="searchAndAdd" duration-ms="17895" started-at="2017-01-23T01:46:45Z" data-provider="orderlistcsv" finished-at="2017-01-23T01:47:03Z">
           <params>
             <param index="0">
               <value>
@@ -53,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchAndAdd -->
-        <test-method status="PASS" signature="searchAndAdd(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.roopa.cart.ShopingCart@c038203]" name="searchAndAdd" duration-ms="7769" started-at="2017-01-23T01:06:00Z" data-provider="orderlistcsv" finished-at="2017-01-23T01:06:08Z">
+        <test-method status="PASS" signature="searchAndAdd(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.roopa.cart.ShopingCart@c038203]" name="searchAndAdd" duration-ms="6448" started-at="2017-01-23T01:47:03Z" data-provider="orderlistcsv" finished-at="2017-01-23T01:47:10Z">
           <params>
             <param index="0">
               <value>
@@ -74,19 +74,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchAndAdd -->
-        <test-method status="PASS" signature="checkOut()[pri:0, instance:org.roopa.cart.ShopingCart@c038203]" name="checkOut" duration-ms="24110" started-at="2017-01-23T01:06:08Z" depends-on-methods="org.roopa.cart.ShopingCart.searchAndAdd" finished-at="2017-01-23T01:06:32Z">
+        <test-method status="PASS" signature="checkOut()[pri:0, instance:org.roopa.cart.ShopingCart@c038203]" name="checkOut" duration-ms="18283" started-at="2017-01-23T01:47:10Z" depends-on-methods="org.roopa.cart.ShopingCart.searchAndAdd" finished-at="2017-01-23T01:47:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkOut -->
-        <test-method status="PASS" signature="assertionTax()[pri:1, instance:org.roopa.cart.ShopingCart@c038203]" name="assertionTax" duration-ms="6124" started-at="2017-01-23T01:06:32Z" depends-on-methods="org.roopa.cart.ShopingCart.checkOut" finished-at="2017-01-23T01:06:38Z">
+        <test-method status="PASS" signature="assertionTax()[pri:1, instance:org.roopa.cart.ShopingCart@c038203]" name="assertionTax" duration-ms="4933" started-at="2017-01-23T01:47:28Z" depends-on-methods="org.roopa.cart.ShopingCart.checkOut" finished-at="2017-01-23T01:47:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assertionTax -->
-        <test-method status="PASS" signature="assertionGrandTotal()[pri:2, instance:org.roopa.cart.ShopingCart@c038203]" name="assertionGrandTotal" duration-ms="216" started-at="2017-01-23T01:06:38Z" depends-on-methods="org.roopa.cart.ShopingCart.checkOut" finished-at="2017-01-23T01:06:38Z">
+        <test-method status="PASS" signature="assertionGrandTotal()[pri:2, instance:org.roopa.cart.ShopingCart@c038203]" name="assertionGrandTotal" duration-ms="548" started-at="2017-01-23T01:47:33Z" depends-on-methods="org.roopa.cart.ShopingCart.checkOut" finished-at="2017-01-23T01:47:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assertionGrandTotal -->
-        <test-method status="PASS" signature="completeTest()[pri:0, instance:org.roopa.cart.ShopingCart@c038203]" name="completeTest" is-config="true" duration-ms="27" started-at="2017-01-23T01:06:38Z" finished-at="2017-01-23T01:06:38Z">
+        <test-method status="PASS" signature="completeTest()[pri:0, instance:org.roopa.cart.ShopingCart@c038203]" name="completeTest" is-config="true" duration-ms="13" started-at="2017-01-23T01:47:33Z" finished-at="2017-01-23T01:47:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- completeTest -->
